@@ -1,0 +1,95 @@
+* {
+    background: #E5E5E5; /* cor de fundo */
+    font-family: 'Inter', sans-serif; /* origem da fonte */
+    font-weight: 400; /* largura */
+    font-size: 32px; /* tamanho */
+    line-height: 150%;
+
+}
+
+.Logo_Alura {
+    margin-left: 10px; /* espaço externo à esquerda */
+    padding-top: 10px; /* espaço interno superior */
+    width: 2%; /* largura */
+}
+
+main {
+    display: flex; /* para visualizar o compo do texto um do lodo do outro */
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.textarea {
+    border: none; /* sem borda */
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;/* para letras menusculas */
+    
+}
+
+::placeholder {color: #0A3871;}
+    .textarea:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(Imagens/boneco.png); /* importar uma imagem com css */
+    background-repeat: no-repeat; /* para não repetir a imagem */
+    border: none; /* tirar a borda atual */
+    border-radius: 24px;/* aredondar as bordas */
+    color: #0A3871;
+    margin-left: 98px;/* espaço externo à esquerda */
+    margin-top: 20px;/* espaço externo superior */
+    padding-left: 20px;/* espaço interno á esquerda */
+    position: fixed; /* posição fixo */
+}
+
+.mensagem:focus {
+    outline: none;
+    
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;   
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px; /* arredondar */
+    color: #0A3871;
+    cursor: pointer; /* ao pasar o mouse fica como uma maozinha */
+    height: 67px; /* largura */
+    margin-left: 30px; /* espaçamento externo à esquerda */
+    width: 328px; /* largura */
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
